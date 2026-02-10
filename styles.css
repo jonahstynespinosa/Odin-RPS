@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Center content horizontally */
+  gap: 10px;            /* Space between items */
+}
+
+h1 {
+  margin: 20px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.player {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  width: 250px;         /* Fixed width instead of inline-block */
+}
+
+.choiceBtn {
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 150px;
+  border: none;
+  background-color: rgb(100, 167, 169);
+}
+
+.result-part {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
