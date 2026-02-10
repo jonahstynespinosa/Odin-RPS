@@ -48,3 +48,17 @@ img {
   font-size: 18px;
   font-weight: bold;
 }
+
+#restartBtn {
+  display: none;
+  margin-top: 20px;
+}
+
+.restBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 150px;
+  background-color: black;
+  color: white;
+}
